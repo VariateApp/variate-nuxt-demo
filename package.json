@@ -1,9 +1,9 @@
 {
-  "name": "variate-nuxt",
+  "name": "@variate/variate-nuxt-demo",
   "version": "1.0.0",
-  "description": "My breathtaking Nuxt.js project",
-  "author": "Valentin Prugnaud",
-  "private": true,
+  "description": "Variate Nuxt Demo",
+  "license": "MIT",
+  "author": "Valentin Prugnaud <valentin.prugnaud@variate.ca>",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
