@@ -1,10 +1,8 @@
 <template>
   <section class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        {{ headline }}
-      </h1>
+      <logo/>
+      <Hero/>
       <h2 class="subtitle">
         My breathtaking Nuxt.js project
       </h2>
@@ -25,24 +23,15 @@
 </template>
 
 <script>
-import { mapAttributes } from '@variate/vue';
+import Hero from '~/components/Hero.vue';
 import Logo from '~/components/Logo.vue';
 
 export default {
-    variateId: 'index',
-    components: {
-        Logo
-    },
-    computed: {
-        ...mapAttributes({
-            headline: 'Default'
-        }),
-    },
-    mounted() {
-        console.groupCollapsed('Home');
-        console.log(this.$variate);
-        console.groupEnd();
-    }
+  variateId: 'index',
+  components: {
+    Hero,
+    Logo
+  },
 };
 </script>
 

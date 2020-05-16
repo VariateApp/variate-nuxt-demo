@@ -39,6 +39,7 @@ module.exports = {
   ],
 
   variate: {
+    configPath: '~/variate.json',
     debug: true,
     reporter: () => {
        return true;
