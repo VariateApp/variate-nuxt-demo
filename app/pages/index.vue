@@ -1,8 +1,8 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
-      <Hero/>
+      <logo />
+      <Hero />
       <h2 class="subtitle">
         My breathtaking Nuxt.js project
       </h2>

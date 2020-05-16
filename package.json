@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@variate/nuxt": "^1.0.5",
+    "@variate/nuxt": "^1.0.6",
     "cross-env": "^7.0.2",
     "nuxt": "^2.12.2"
   },
